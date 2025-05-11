@@ -1,0 +1,19 @@
+{
+  "required_api_version": "2",
+  "name": "Brave Search",
+  "description": "To use brave search engine",
+  "developer_name": "Antonio Silva",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.05
+  },
+  "preferences": [
+    {
+      "id": "search",
+      "type": "keyword",
+      "name": "Brave Search",
+      "description": "Brave Extension",
+      "default_value": "br"
+    }
+  ]
+}
